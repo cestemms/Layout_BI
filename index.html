@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <!-- BEGIN: Head -->
+    <head>
+        <meta charset="utf-8">
+        <link href="assets/images/white-logo.png" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="HealthBit admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+        <meta name="keywords" content="admin template, HealthBit admin template, dashboard template, flat admin template, responsive admin template, web app">
+        <meta name="author" content="LEFT4CODE">
+        <title>Relatórios - HealthBit</title>
+        <!-- BEGIN: CSS Assets-->
+        <link rel="stylesheet" href="assets/css/app.css" />
+        <!-- END: CSS Assets-->
+    </head>
+    <!-- END: Head -->
+    <body class="app">
+        <!-- BEGIN: Mobile Menu -->
+        <div class="mobile-menu md:hidden">
+            <div class="mobile-menu-bar">
+                <a href="" class="flex mr-auto">
+                    <img alt="HealthBit " class="w-6" src="assets/images/white-logo.png">
+                </a>
+                <a href="javascript:;" id="mobile-menu-toggler"> <i data-feather="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+            </div>
+            <ul class="border-t border-theme-24 py-5 hidden">
+                <li>
+                    <a href="" class="menu">
+                        <div class="menu__icon"> <i data-feather="home"></i> </div>
+                        <div class="menu__title"> Dashboard </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="box"></i> </div>
+                        <div class="menu__title"> Gerenciar <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" class="menu">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Relatórios </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> Individuais </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu">
+                        <div class="menu__icon"> <i data-feather="credit-card"></i> </div>
+                        <div class="menu__title"> Entregas </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu">
+                        <div class="menu__icon"> <i data-feather="message-square"></i> </div>
+                        <div class="menu__title"> Dados Completos </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="menu">
+                        <div class="menu__icon"> <i data-feather="file-text"></i> </div>
+                        <div class="menu__title"> Integração </div>
+                    </a>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="edit"></i> </div>
+                        <div class="menu__title"> Labs <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="users"></i> </div>
+                        <div class="menu__title"> Demografia <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="trello"></i> </div>
+                        <div class="menu__title"> Perfil <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="layout"></i> </div>
+                        <div class="menu__title"> Individuais <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Scripts de Seleção <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Todos <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Resumo <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Menu <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Entregas <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="sidebar"></i> </div>
+                        <div class="menu__title"> Dados Completos <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> Integração <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- END: Mobile Menu -->
+        <!-- BEGIN: Top Bar -->
+        <div class="border-b border-theme-24 -mt-10 md:-mt-5 -mx-3 sm:-mx-8 px-3 sm:px-8 pt-3 md:pt-0 mb-10">
+            <div class="top-bar-boxed flex items-center">
+                <!-- BEGIN: Logo -->
+                <a href="" class="-intro-x hidden md:flex">
+                    <img alt="HealthBit " class="w-6" src="assets/images/white-logo.png">
+                    <span class="text-white text-lg ml-3">  </span>
+                </a>
+                <!-- END: Logo -->
+                <!-- BEGIN: Breadcrumb -->
+                <div class="-intro-x breadcrumb breadcrumb--light mr-auto"> <a href="" class="">Application</a> <i data-feather="chevron-right" class="breadcrumb__icon"></i> <a href="" class="breadcrumb--active">Dashboard</a> </div>
+                <!-- END: Breadcrumb -->
+                <!-- BEGIN: Search -->
+                <div class="intro-x relative mr-3 sm:mr-6">
+                    <div class="search hidden sm:block">
+                        <input type="text" class="search__input input placeholder-theme-13" placeholder="Search...">
+                        <i data-feather="search" class="search__icon"></i> 
+                    </div>
+                    <a class="notification notification--light sm:hidden" href=""> <i data-feather="search" class="notification__icon"></i> </a>
+                    <div class="search-result">
+                        <div class="search-result__content">
+                            <div class="search-result__content__title">Individual</div>
+                            <div class="mb-5">
+                                <a href="" class="flex items-center">
+                                    <div class="w-8 h-8 bg-theme-18 text-theme-9 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="inbox"></i> </div>
+                                    <div class="ml-3">Scripts De Seleção </div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 bg-theme-17 text-theme-11 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="users"></i> </div>
+                                    <div class="ml-3">Todos</div>
+                                </a>
+                            </div>
+                            <div class="search-result__content__title">Relatórios</div>
+                            <div class="mb-5">
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="HealthBit " class="rounded-full" src="assets/images/profile-4.jpg">
+                                    </div>
+                                    <div class="ml-3">Perfil Populacional</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="HealthBit " class="rounded-full" src="assets/images/profile-6.jpg">
+                                    </div>
+                                    <div class="ml-3">Evolução Populacional</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Search -->
+                <!-- BEGIN: Notifications -->
+                <div class="intro-x dropdown relative mr-4 sm:mr-6">
+                    <div class="dropdown-toggle notification notification--light notification--bullet cursor-pointer"> <i data-feather="bell" class="notification__icon"></i> </div>
+                    <div class="notification-content dropdown-box mt-8 absolute top-0 right-0 z-10 -mr-10 sm:mr-0">
+                        <div class="notification-content__box dropdown-box__content box">
+                            <div class="notification-content__title">Notifications</div>
+                            <div class="cursor-pointer relative flex items-center ">
+                                <div class="w-12 h-12 flex-none image-fit mr-1">
+                                    <img alt="HealthBit " class="rounded-full" src="assets/images/profile-4.jpg">
+                                    <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                </div>
+                                <div class="ml-2 overflow-hidden">
+                                    <div class="flex items-center">
+                                        <a href="javascript:;" class="font-medium truncate mr-5">John Travolta</a> 
+                                        <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                    </div>
+                                    <div class="w-full truncate text-gray-600">Relatório disponível para Download</div>
+                                </div>
+                            </div>
+                            <div class="cursor-pointer relative flex items-center mt-5">
+                                <div class="w-12 h-12 flex-none image-fit mr-1">
+                                    <img alt="HealthBit " class="rounded-full" src="assets/images/profile-6.jpg">
+                                    <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                </div>
+                                <div class="ml-2 overflow-hidden">
+                                    <div class="flex items-center">
+                                        <a href="javascript:;" class="font-medium truncate mr-5">Nova página</a> 
+                                        <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                    </div>
+                                    <div class="w-full truncate text-gray-600">Clique aqui para saber mais!</div>
+                                </div>
+                            </div>
+                            
+
+                         
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Notifications -->
+                <!-- BEGIN: Account Menu -->
+                <div class="intro-x dropdown w-8 h-8 relative">
+                    <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110">
+                        <img alt="Kayne Gonçalves " src="https://avatars0.githubusercontent.com/u/38166267?s=460&u=fb812dfa1f67b662d9e51a654dd8e70a9635211d&v=4">
+                    </div>
+                    <div class="dropdown-box mt-10 absolute w-56 top-0 right-0 z-20">
+                        <div class="dropdown-box__content box bg-theme-38 text-white">
+                            <div class="p-4 border-b border-theme-40">
+                                <div class="font-medium">Kayne Gonçalves</div>
+                                <div class="text-xs text-theme-41">Desenvolvimento</div>
+                            </div>
+                            <div class="p-2">
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="user" class="w-4 h-4 mr-2"></i> Perfil </a>
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="edit" class="w-4 h-4 mr-2"></i> Configurações </a>
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="lock" class="w-4 h-4 mr-2"></i> Alterar Senha </a>
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="help-circle" class="w-4 h-4 mr-2"></i> Suporte </a>
+                            </div>
+                            <div class="p-2 border-t border-theme-40">
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Account Menu -->
+                
+            </div>
+        </div>
+        <!-- END: Top Bar -->
+        <!-- BEGIN: Top Menu -->
+        <nav class="top-nav">
+            <ul>
+                <li>
+                    <a href="" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="home"></i> </div>
+                        <div class="top-menu__title"> Dashboard </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="box"></i> </div>
+                        <div class="top-menu__title"> Gerenciar <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;.html" class="top-menu top-menu--active">
+                        <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="top-menu__title"> Relatórios <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="top-menu__sub-open">
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Demografia <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Perfil <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Submenu</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="layout"></i> </div>
+                        <div class="top-menu__title"> Individuais </div>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="top-menu__title"> Entregas</div>
+                    </a>
+                
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="sidebar"></i> </div>
+                        <div class="top-menu__title"> Dados Completos <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="top-menu__title"> Integração <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Submenu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- END: Top Menu -->
+        <!-- BEGIN: Content -->
+        <div class="content">
+            <div class="grid grid-cols-12 gap-6 mt-8">
+                <div class="col-span-12 lg:col-span-3 xxl:col-span-2">
+                    <h2 class="intro-y text-lg font-medium mr-auto mt-2">
+                        Relatórios
+                    </h2>
+                    <!-- BEGIN: Relatórios Menu -->
+                    <div class="intro-y box bg-theme-1 p-5 mt-6">
+                        <div class="border-t border-theme-3 mt-6 pt-6 text-white">
+                            <a href="" class="flex items-center px-3 py-2 rounded-md bg-theme-22 font-medium"> <i class="w-4 h-4 mr-2" data-feather="mail"></i> Todos </a>
+                            <a href="" class="flex items-center px-3 py-2 mt-2 rounded-md"> <i class="w-4 h-4 mr-2" data-feather="star"></i> Favoritos</a>
+                        </div>
+                        <div class="border-t border-theme-3 mt-5 pt-5 text-white">
+                            <a href="" class="flex items-center px-3 py-2 truncate">
+                                <div class="w-2 h-2 bg-theme-11 rounded-full mr-3"></div>
+                                Acidente de Trabalho 
+                            </a>
+                            <a href="" class="flex items-center px-3 py-2 mt-2 rounded-md truncate">
+                                <div class="w-2 h-2 bg-theme-9 rounded-full mr-3"></div>
+                                AIS Americana 
+                            </a>
+                            <a href="" class="flex items-center px-3 py-2 mt-2 rounded-md truncate">
+                                <div class="w-2 h-2 bg-theme-12 rounded-full mr-3"></div>
+                                Cuidado de Perto  
+                            </a>
+                            <a href="" class="flex items-center px-3 py-2 mt-2 rounded-md truncate">
+                                <div class="w-2 h-2 bg-theme-11 rounded-full mr-3"></div>
+                                Hipertensão
+                            </a>
+                            <a href="" class="flex items-center px-3 py-2 mt-2 rounded-md truncate">
+                                <div class="w-2 h-2 bg-theme-6 rounded-full mr-3"></div>
+                                Diabetes 
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END: Relatórios Menu -->
+                </div>
+                <div class="col-span-12 lg:col-span-9 xxl:col-span-10">
+                    <!-- BEGIN: Relatórios Filter -->
+                    <div class="intro-y flex flex-col-reverse sm:flex-row items-center">
+                        <div class="w-full sm:w-auto relative mr-auto mt-3 sm:mt-0">
+                            <i class="w-4 h-4 absolute my-auto inset-y-0 ml-3 left-0 z-10 text-gray-700" data-feather="search"></i> 
+                            <input type="text" class="input w-full sm:w-64 box px-10 text-gray-700 placeholder-theme-13" placeholder="Procurar...">
+                            <div class="inbox-filter dropdown absolute inset-y-0 mr-3 right-0 flex items-center">
+                                <i class="dropdown-toggle w-4 h-4 cursor-pointer text-gray-700" data-feather="chevron-down"></i> 
+                                <div class="inbox-filter__dropdown-box dropdown-box mt-10 absolute top-0 left-0 z-20">
+                                    <div class="dropdown-box__content box p-5">
+                                        <div class="grid grid-cols-12 gap-4 row-gap-3">
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Titular</div>
+                                                <input type="text" class="input w-full border mt-2 flex-1" placeholder="Nome do Titular">
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Dependente</div>
+                                                <input type="text" class="input w-full border mt-2 flex-1" placeholder="Nome do Dependente">
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Idade</div>
+                                                <input type="text" class="input w-2/5 border mr-5 mt-2 flex-1" placeholder="De">
+                                                <input type="text" class="input w-2/5 border ml-5 flex-1" placeholder="Até">
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Sexo</div>
+                                                <select class="input w-full border mt-2 flex-1">
+                                                    <option>Selecione</option>
+                                                    <option>Feminino</option>
+                                                    <option>Masculino</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Consultas</div>
+                                                <input type="text" class="input w-2/5 border mr-5 mt-2 flex-1" placeholder="De">
+                                                <input type="text" class="input w-2/5 border ml-5 flex-1" placeholder="Até">
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Plano</div>
+                                                <select class="input w-full border mt-2 flex-1">
+                                                    <option>Todos</option>
+                                                    <option>22103</option>
+                                                    <option>24135</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Exames</div>
+                                                <input type="text" class="input w-2/5 border mr-5 mt-2 flex-1" placeholder="De">
+                                                <input type="text" class="input w-2/5 border ml-5 flex-1" placeholder="Até">
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Status</div>
+                                                <select class="input w-full border mt-2 flex-1">
+                                                    <option>Todos</option>
+                                                    <option>Ativo</option>
+                                                    <option>Desligado</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Internação</div>
+                                                <input type="text" class="input w-2/5 border mr-5 mt-2 flex-1" placeholder="De">
+                                                <input type="text" class="input w-2/5 border ml-5 flex-1" placeholder="Até">
+                                            </div>
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Programa</div>
+                                                <select class="input w-full border mt-2 flex-1">
+                                                    <option>Todos</option>
+                                                    <option>Acidente de trabalho</option>
+                                                    <option>AIS Americana</option>
+                                                    <option>Cuidado de Perto - Seguros Unimed </option>
+                                                    <option>Gestantes</option>
+                                                </select>
+                                            </div>
+                                            
+                                            
+                                            
+                                            <div class="col-span-6">
+                                                <div class="text-xs">Custo Total</div>
+                                                <input type="text" class="input w-2/5 border mr-5 mt-2 flex-1" placeholder="De">
+                                                <input type="text" class="input w-2/5 border ml-5 flex-1" placeholder="Até">
+                                            </div>
+                                            
+                                            <div class="col-span-12 flex items-start mt-3">
+                                                <button class="button w-32 justify-center block bg-gray-200 text-gray-600 ml-auto">Filtros de Fichas</button>
+                                                <button class="button w-32 justify-center block bg-theme-1 text-white ml-2">Buscar</button>
+                                            </div>
+                                            <div class="col-span-1">
+                                                <input class="input border border-gray-500" type="checkbox">
+                                            </div>
+                                            <div class="col-span-5">
+                                                <div class="text-xs">Alcoolismo</div>
+                                            </div>
+                                            <div class="col-span-1">
+                                                <input class="input border border-gray-500" type="checkbox">
+                                            </div>
+                                            <div class="col-span-5">
+                                                <div class="text-xs">Tabagismo</div>
+                                            </div>
+                                            <div class="col-span-1">
+                                                <input class="input border border-gray-500" type="checkbox">
+                                            </div>
+                                            <div class="col-span-5">
+                                                <div class="text-xs">Sobrepeso</div>
+                                            </div>
+                                            <div class="col-span-1">
+                                                <input class="input border border-gray-500" type="checkbox">
+                                            </div>
+                                            <div class="col-span-5">
+                                                <div class="text-xs">Hipertensão</div>
+                                            </div>
+                                            <div class="col-span-1">
+                                                <input class="input border border-gray-500" type="checkbox">
+                                            </div>
+                                            <div class="col-span-5">
+                                                <div class="text-xs">Diabetes</div>
+                                            </div>
+                                            
+                                            
+                                            <button class="button w-32 justify-end block bg-theme-1 text-white ml-2">Buscar</button>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <!-- END: Relatórios Filter -->
+                        
+                    </div>
+                    <!-- END: Relatórios Filter -->
+                    <!-- BEGIN: Datatable -->
+                <div class="intro-y datatable-wrapper box p-5 mt-5">
+                    <table class="table table-report table-report--bordered display datatable w-full">
+                        <thead>
+                            <tr>
+                                <th class="border-b-2 whitespace-no-wrap">Pessoa/Titular</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Status</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Sexo</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Titularidade</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Plano</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Idade</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Consultas</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Exames</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Internações</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Custo</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Especialidades</th>
+                                <th class="border-b-2 text-center whitespace-no-wrap">Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="w-40 border-b">
+                                    <div class="font-medium whitespace-no-wrap">Beneficiário</div>
+                                    <div class="text-gray-600 text-xs whitespace-no-wrap">Titular</div>
+                                </td>
+                                <td class="text-center border-b">
+                                    <div class="flex items-center sm:justify-center text-theme-6"> <i data-feather="check-square" class="w-4 h-4 mr-2"></i> Desligado </div>
+                                </td>
+                                <td class="text-center border-b">M</td>
+                                <td class="text-center border-b">Titular</td>
+                                <td class="text-center border-b">AMO 01/</td>
+                                <td class="text-center border-b">78</td>
+                                <td class="text-center border-b">0</td>
+                                <td class="text-center border-b">33</td>
+                                <td class="text-center border-b">7.688</td>
+                                <td class="text-center border-b">2.751.137,04</td>
+                                <td class="text-center border-b">CARDIOLOGIA</td>
+                                <td class="border-b w-5">
+                                    <div class="flex sm:justify-center items-center">
+                                        <a class="flex items-center mr-3" href=""> <i data-feather="check-square" class="w-4 h-4 mr-1"></i></a>
+                                        <a class="flex items-center text-theme-6" href=""> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-40 border-b">
+                                    <div class="font-medium whitespace-no-wrap">Beneficiário</div>
+                                    <div class="text-gray-600 text-xs whitespace-no-wrap">Titular</div>
+                                </td>
+                                <td class="text-center border-b">
+                                    <div class="flex items-center sm:justify-center text-theme-6"> <i data-feather="check-square" class="w-4 h-4 mr-2"></i> Desligado </div>
+                                </td>
+                                <td class="text-center border-b">M</td>
+                                <td class="text-center border-b">Titular</td>
+                                <td class="text-center border-b">AMO 01/</td>
+                                <td class="text-center border-b">78</td>
+                                <td class="text-center border-b">0</td>
+                                <td class="text-center border-b">33</td>
+                                <td class="text-center border-b">7.688</td>
+                                <td class="text-center border-b">2.751.137,04</td>
+                                <td class="text-center border-b">CARDIOLOGIA</td>
+                                <td class="border-b w-5">
+                                    <div class="flex sm:justify-center items-center">
+                                        <a class="flex items-center mr-3" href=""> <i data-feather="check-square" class="w-4 h-4 mr-1"></i></a>
+                                        <a class="flex items-center text-theme-6" href=""> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-40 border-b">
+                                    <div class="font-medium whitespace-no-wrap">Beneficiário</div>
+                                    <div class="text-gray-600 text-xs whitespace-no-wrap">Titular</div>
+                                </td>
+                                <td class="text-center border-b">
+                                    <div class="flex items-center sm:justify-center text-theme-6"> <i data-feather="check-square" class="w-4 h-4 mr-2"></i> Desligado </div>
+                                </td>
+                                <td class="text-center border-b">M</td>
+                                <td class="text-center border-b">Titular</td>
+                                <td class="text-center border-b">AMO 01/</td>
+                                <td class="text-center border-b">78</td>
+                                <td class="text-center border-b">0</td>
+                                <td class="text-center border-b">33</td>
+                                <td class="text-center border-b">7.688</td>
+                                <td class="text-center border-b">2.751.137,04</td>
+                                <td class="text-center border-b">CARDIOLOGIA</td>
+                                <td class="border-b w-5">
+                                    <div class="flex sm:justify-center items-center">
+                                        <a class="flex items-center mr-3" href=""> <i data-feather="check-square" class="w-4 h-4 mr-1"></i></a>
+                                        <a class="flex items-center text-theme-6" href=""> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-40 border-b">
+                                    <div class="font-medium whitespace-no-wrap">Beneficiário</div>
+                                    <div class="text-gray-600 text-xs whitespace-no-wrap">Titular</div>
+                                </td>
+                                <td class="text-center border-b">
+                                    <div class="flex items-center sm:justify-center text-theme-6"> <i data-feather="check-square" class="w-4 h-4 mr-2"></i> Desligado </div>
+                                </td>
+                                <td class="text-center border-b">M</td>
+                                <td class="text-center border-b">Titular</td>
+                                <td class="text-center border-b">AMO 01/</td>
+                                <td class="text-center border-b">78</td>
+                                <td class="text-center border-b">0</td>
+                                <td class="text-center border-b">33</td>
+                                <td class="text-center border-b">7.688</td>
+                                <td class="text-center border-b">2.751.137,04</td>
+                                <td class="text-center border-b">CARDIOLOGIA</td>
+                                <td class="border-b w-5">
+                                    <div class="flex sm:justify-center items-center">
+                                        <a class="flex items-center mr-3" href=""> <i data-feather="check-square" class="w-4 h-4 mr-1"></i></a>
+                                        <a class="flex items-center text-theme-6" href=""> <i data-feather="trash-2" class="w-4 h-4 mr-1"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- END: Datatable -->
+                </div>
+            </div>
+        </div>
+        <!-- END: Content -->
+        <!-- BEGIN: JS Assets-->
+        <script src="assets/js/app.js"></script>
+        <!-- END: JS Assets-->
+    </body>
+</html>
